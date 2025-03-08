@@ -134,5 +134,5 @@ otool -L /usr/local/bin/wpd2odt
 
 echo ''
 echo ==============
-pause 'All linked libraries should be in the /usr/lib/ folder. Press Enter.'
+pause 'All linked libraries should be in the /usr/local/bin/ folder. Press Enter.'
 
