@@ -37,7 +37,7 @@ git clone https://git.code.sf.net/p/libwpd/librevenge librevenge
 cd librevenge
 autoupdate
 ./autogen.sh
-./configure CXXFLAGS=-I$HOME/Development/libwpd-build/boost_1_87_0 LDFLAGS=-I$HOME/Development/libwpd-build/boost_1_87_0 --enable-static --disable-shared --disable-tests
+./configure CXXFLAGS=-I$HOME/Development/libwpd-build/boost_1_87_0 LDFLAGS=-L$HOME/Development/libwpd-build/boost_1_87_0 --enable-static --disable-shared --disable-tests
 make clean all
 sudo make install
 cd ..
@@ -56,7 +56,7 @@ git clone https://git.code.sf.net/p/libwpd/code libwpd
 cd libwpd 
 autoupdate
 ./autogen.sh
-./configure CXXFLAGS=-I$HOME/Development/libwpd-build/boost_1_87_0 LDFLAGS=-I$HOME/Development/libwpd-build/boost_1_87_0  --enable-static --disable-shared
+./configure CXXFLAGS=-I$HOME/Development/libwpd-build/boost_1_87_0 LDFLAGS=-L$HOME/Development/libwpd-build/boost_1_87_0  --enable-static --disable-shared
 make clean all
 sudo make install
 cd ..
@@ -76,7 +76,7 @@ git clone https://git.code.sf.net/p/libwpg/code libwpg
 cd libwpg
 autoupdate
 ./autogen.sh
-./configure CXXFLAGS=-I$HOME/Development/libwpd-build/boost_1_87_0 LDFLAGS=-I$HOME/Development/libwpd-build/boost_1_87_0  --enable-static --disable-shared
+./configure CXXFLAGS=-I$HOME/Development/libwpd-build/boost_1_87_0 LDFLAGS=-L$HOME/Development/libwpd-build/boost_1_87_0  --enable-static --disable-shared
 make clean all
 sudo make install
 cd ..
@@ -98,7 +98,7 @@ git clone https://git.code.sf.net/p/libwpd/libodfgen libodfgen
 cd libodfgen 
 autoupdate
 ./autogen.sh
-./configure CXXFLAGS=-I$HOME/Development/libwpd-build/boost_1_87_0 LDFLAGS=-I$HOME/Development/libwpd-build/boost_1_87_0 --enable-static --disable-shared
+./configure CXXFLAGS=-I$HOME/Development/libwpd-build/boost_1_87_0 LDFLAGS=-L$HOME/Development/libwpd-build/boost_1_87_0 --enable-static --disable-shared
 make clean all
 sudo make install
 cd ..
@@ -116,7 +116,7 @@ git clone https://git.code.sf.net/p/libwpd/writerperfect writerperfect
 cd writerperfect
 autoupdate  
 ./autogen.sh
-./configure CXXFLAGS=-I$HOME/Development/libwpd-build/boost_1_87_0 LDFLAGS=-I$HOME/Development/libwpd-build/boost_1_87_0  --enable-static --disable-shared
+./configure CXXFLAGS=-I$HOME/Development/libwpd-build/boost_1_87_0 LDFLAGS=-L$HOME/Development/libwpd-build/boost_1_87_0  --enable-static --disable-shared
 make clean all
 sudo make install
 cd ..
